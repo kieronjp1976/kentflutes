@@ -385,6 +385,20 @@ h1, h2, h3 {
 
 .contact-details dd a { color: var(--paper); }
 
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.whatsapp-icon {
+  width: 18px;
+  height: 18px;
+  fill: #25d366;
+  flex-shrink: 0;
+}
+
 /* Footer */
 .site-footer {
   padding: 40px 0 32px;
