@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Performance | Pam Palmer, Kent Flutes</title>
+<meta name="description" content="Pam Palmer's performing history, recordings and upcoming appearances.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Cormorant+Garamond:ital,wght@1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="performance-page">
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">♪</span>
+      <span class="brand-text">Kent Flutes</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="performance.html" aria-current="page">Performance</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="perf-hero">
+    <div class="perf-hero-media">
+      <img src="images/pam-performance.jpg" alt="Pam Palmer holding a flute">
+    </div>
+    <div class="perf-hero-panel">
+      <p class="eyebrow">Performance</p>
+      <h1>Pam Palmer</h1>
+      <p class="perf-role">Flautist</p>
+      <p class="perf-bio">
+        <em>[Add a short performance biography here — orchestras, ensembles,
+        notable concerts, broadcasts or recordings.]</em>
+      </p>
+      <a class="btn btn-primary" href="index.html#contact">Enquire about booking Pam</a>
+    </div>
+  </section>
+
+  <section id="highlights" class="perf-section">
+    <div class="wrap">
+      <p class="eyebrow">Highlights</p>
+      <h2>Performance highlights</h2>
+      <ul class="perf-timeline">
+        <li>
+          <span class="perf-timeline-date">[Year]</span>
+          <span class="perf-timeline-body">[Add a notable performance, venue or ensemble]</span>
+        </li>
+        <li>
+          <span class="perf-timeline-date">[Year]</span>
+          <span class="perf-timeline-body">[Add a notable performance, venue or ensemble]</span>
+        </li>
+        <li>
+          <span class="perf-timeline-date">[Year]</span>
+          <span class="perf-timeline-body">[Add a notable performance, venue or ensemble]</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="recordings" class="perf-section perf-section-deep">
+    <div class="wrap">
+      <p class="eyebrow">Listen</p>
+      <h2>Recordings</h2>
+      <p class="perf-muted">[Add links to recordings — e.g. YouTube, SoundCloud or Spotify.]</p>
+    </div>
+  </section>
+
+  <section id="upcoming" class="perf-section">
+    <div class="wrap">
+      <p class="eyebrow">Diary</p>
+      <h2>Upcoming performances</h2>
+      <p class="perf-muted">[Add any upcoming concert dates and venues here, or remove this section if there are none at present.]</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html">Home</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="performance.html">Performance</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <p>&copy; <span id="year"></span> Pam Palmer, Kent Flutes. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
